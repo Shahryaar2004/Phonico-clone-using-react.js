@@ -1,0 +1,64 @@
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    
+  }
+  
+  .hero-tagline {
+    font-size: 18px;
+    color: #6c757d;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    
+    color: black;
+  }
+  
+  .hero-description {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .hero-buttons button {
+    padding: 20px 20px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .app-store-button {
+    background-color: #001f3f;
+    color: white;
+  }
+  
+  .play-store-button {
+    background-color: #ff5733;
+    color: white;
+  }
+  
+  .hero-image {
+    height: 40%;
+    width: 40%;
+  }
+  
+  .hero-image .image {
+    width: 100%;
+    height: auto;
+  }
+  

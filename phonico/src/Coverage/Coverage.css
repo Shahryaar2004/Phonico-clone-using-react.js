@@ -1,0 +1,91 @@
+/* Section Styling */
+.coverage-section {
+    text-align: center;
+    
+    background-color: #ffffff;
+  }
+  
+  .coverage-text .subtitle {
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .coverage-text h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .coverage-text h2 span {
+    color: #e64a5c; /* Highlight for FREE */
+    font-weight: bold;
+  }
+  
+  .underline {
+    width: 50px;
+    border: none;
+    height: 4px;
+    background-color: #fc95a1;
+    margin: 0 auto;
+  }
+  
+  /* Card Styling */
+  .coverage-card {
+    max-width: 500px;
+    margin: 40px auto 0;
+    background: linear-gradient(135deg, #fc95a1, #66c69b);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coverage-card h3 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 8px;
+  }
+  
+  .coverage-card p {
+    font-size: 20px;
+    color:black;
+    margin-bottom: 20px;
+  }
+  
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .zipcode-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .go-button {
+    padding: 10px 20px;
+    background-color: #e64a5c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .go-button:hover {
+    background-color: #bf3848;
+  }
+  .spaces{
+    margin: 30px 30px 30px 30px;
+  }

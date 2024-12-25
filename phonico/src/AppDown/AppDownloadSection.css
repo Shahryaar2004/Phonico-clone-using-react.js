@@ -1,0 +1,71 @@
+.app-download-section {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    padding: 50px;
+    background-color: #fff;
+    gap: 20px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+    text-align: center;  /* Center the text */
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;  /* Center buttons */
+    gap: 15px;
+  }
+  
+  .app-store-button,
+  .play-store-button {
+    background-color: #007aff;
+    color: white;
+    padding: 12px 25px;  /* Increased button padding for better visibility */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-store-button {
+    background-color: #ff4c68;
+  }
+  
+  .app-store-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .play-store-button:hover {
+    background-color: #cc003f;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Center the image */
+  }
+  
+  .image-content img {
+    width: auto;  /* Auto width to keep aspect ratio */
+    max-width: 450px;  /* Increased max-width to make image bigger */
+    height: auto;  /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+  

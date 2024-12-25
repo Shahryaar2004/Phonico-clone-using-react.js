@@ -1,0 +1,126 @@
+/* Overall Section Styling */
+.travel-section {
+    padding: 50px 20px;
+    background-color: #fdf3f3;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Benefits Section */
+  .travel-benefits {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .benefits-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four items per row */
+    gap: 20px; /* Spacing between items */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Card Style for Individual Items */
+  .benefits-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px; /* Space between icon and text */
+  }
+  
+  /* Image Styling */
+  .benefits-list img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  /* Text Styling */
+  .benefits-list p {
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  /* Main Travel Section */
+  .travel-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .travel-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .travel-subtitle {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .travel-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .travel-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .travel-details {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  
+  .travel-button {
+    background-color: #1d3557;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .travel-button:hover {
+    background-color: #457b9d;
+  }
+  
+  /* Image Section */
+  .travel-image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plane-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    z-index: 1;
+  }
+  
+  .phone-image {
+    max-width: 300px;
+    position: relative;
+    z-index: 2;
+  }
+  

@@ -1,0 +1,164 @@
+
+.data-plans {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff6f5;
+  }
+  
+  .data-plans-header {
+    margin-bottom: 40px;
+  }
+  
+  .data-plans-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+  }
+  
+  .data-plans-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .data-plans-underline {
+    width: 50px;
+    height: 4px;
+    margin: 10px auto 0;
+    background-color: #fc95a1;
+    border: none;
+    border-radius: 2px;
+  }
+  
+
+  .data-plans-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .plan-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .plan-circle {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    border: 6px solid #f0f0f0;
+    position: relative;
+  }
+  
+  .circle-1gb {
+    border-top-color: #a5916e;
+  }
+  
+  .circle-3gb {
+    border-top-color: #d4c95d;
+  }
+  
+  .circle-5gb {
+    border-top-color: #66c69b;
+  }
+  
+  .circle-10gb {
+    border-top-color: #66c69b; 
+  }
+  
+ 
+  .plan-data {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .plan-description {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0 15px;
+  }
+  
+  .plan-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .price-highlight {
+    color: #e64a5c;
+  }
+  
+  /* Plan Features List */
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .plan-features li {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .plan-features li:before {
+    content: "✔";
+    color: #66c69b;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  
+  /* Activate Button */
+  .plan-activate-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background: linear-gradient(135deg, #fc95a1, #e64a5c);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan-activate-button:hover {
+    background: linear-gradient(135deg, #e64a5c, #bf3848);
+  }
+  
+  /* Premium Plan Specific Styling */
+  .premium-plan-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .premium-plan-card:hover {
+    transform: scale(1.05);
+  }
+  

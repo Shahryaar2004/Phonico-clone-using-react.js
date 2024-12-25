@@ -1,0 +1,63 @@
+/* Solutions Component Styles */
+
+.solutions-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .solutions-header {
+    margin-bottom: 40px;
+  }
+  
+  .solutions-subtitle {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .solutions-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .solutions-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Space between columns */
+  }
+  
+  .solutions-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between items */
+    flex: 1;
+  }
+  
+  .solution-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .solution-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .solution-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .solutions-image {
+    flex: 0 0 auto; /* Keep the image column from shrinking */
+  }
+  
+  .solutions-image img {
+    width: 300px;
+    height: auto;
+  }
+  
